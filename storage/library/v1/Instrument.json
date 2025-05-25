@@ -1,0 +1,178 @@
+{
+    "setup": {
+        "model": "Instrument"
+    },
+    "data": [
+        {
+            "name": "MINIFLASH FP Vision",
+            "description": null,
+            "parameters": [
+                {
+                    "name": "Flash Point",
+                    "test_standards": [
+                        {
+                            "name": "ASTM D56"
+                        },
+                        {
+                            "name": "ASTM D93"
+                        },
+                        {
+                            "name": "ASTM D6450"
+                        },
+                        {
+                            "name": "ASTM D7094"
+                        },
+                        {
+                            "name": "ISO 2719"
+                        },
+                        {
+                            "name": "ISO 3679"
+                        },
+                        {
+                            "name": "ISO 3680"
+                        },
+                        {
+                            "name": "ISO 13736"
+                        },
+                        {
+                            "name": "IP 170"
+                        },
+                        {
+                            "name": "SHT 0768"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MINIFLASH FPH Vision",
+            "description": null,
+            "parameters": [
+                {
+                    "name": "Flash Point",
+                    "test_standards": [
+                        {
+                            "name": "ASTM D56"
+                        },
+                        {
+                            "name": "ASTM D93"
+                        },
+                        {
+                            "name": "ASTM D6450"
+                        },
+                        {
+                            "name": "ASTM D7094"
+                        },
+                        {
+                            "name": "ISO 2719"
+                        },
+                        {
+                            "name": "ISO 13736"
+                        },
+                        {
+                            "name": "IP 170"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MINIFLASH FPA Vision",
+            "description": null,
+            "parameters": [
+                {
+                    "name": "Flash Point",
+                    "test_standards": [
+                        {
+                            "name": "ASTM D56"
+                        },
+                        {
+                            "name": "ASTM D93"
+                        },
+                        {
+                            "name": "ASTM D6450"
+                        },
+                        {
+                            "name": "ASTM D7094"
+                        },
+                        {
+                            "name": "ISO 2719"
+                        },
+                        {
+                            "name": "ISO 13736"
+                        },
+                        {
+                            "name": "IP 170"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MINISCAN IR Vision",
+            "description": null,
+            "parameters": [
+                {
+                    "name": "RON",
+                    "test_standards": []
+                },
+                {
+                    "name": "MON",
+                    "test_standards": []
+                },
+                {
+                    "name": "AKI",
+                    "test_standards": []
+                },
+                {
+                    "name": "IBP",
+                    "test_standards": []
+                },
+                {
+                    "name": "T10",
+                    "test_standards": []
+                },
+                {
+                    "name": "T50",
+                    "test_standards": []
+                },
+                {
+                    "name": "T90",
+                    "test_standards": []
+                },
+                {
+                    "name": "FBP",
+                    "test_standards": []
+                },
+                {
+                    "name": "E200",
+                    "test_standards": []
+                },
+                {
+                    "name": "E300",
+                    "test_standards": []
+                },
+                {
+                    "name": "E70",
+                    "test_standards": []
+                },
+                {
+                    "name": "E100",
+                    "test_standards": []
+                },
+                {
+                    "name": "E150",
+                    "test_standards": []
+                },
+                {
+                    "name": "RVP",
+                    "test_standards": []
+                },
+                {
+                    "name": "DVPE",
+                    "test_standards": []
+                }
+            ]
+        }
+    ]
+}

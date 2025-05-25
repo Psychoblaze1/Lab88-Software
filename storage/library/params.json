@@ -1,0 +1,1517 @@
+{
+    "library": {
+      "class": "parameter",
+      "version": 2
+    },
+    "data": [
+      {
+        "name": "Appearance",
+        "uom": "visual",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "select",
+        "input_env": [
+          "clear",
+          "opaque"
+        ],
+        "math_value": null,
+        "indicator": "contamination",
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "Colour",
+        "uom": null,
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "select",
+        "input_env": [
+          "Straw Yellow",
+          "Yellow"
+        ],
+        "math_value": null,
+        "indicator": "contamination",
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "Free Water",
+        "uom": null,
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "select",
+        "input_env": [
+          "None Observed",
+          "Present"
+        ],
+        "math_value": null,
+        "indicator": "contamination",
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "> 4 μm",
+        "uom": "μm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": 4,
+        "indicator": "contamination",
+        "classification": [
+          "particle_count"
+        ],
+        "description": null
+      },
+      {
+        "name": "> 6 μm",
+        "uom": "μm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": 6,
+        "indicator": "contamination",
+        "classification": [
+          "particle_count"
+        ],
+        "description": null
+      },
+      {
+        "name": "> 10 μm",
+        "uom": "μm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": 10,
+        "indicator": "contamination",
+        "classification": [
+          "particle_count"
+        ],
+        "description": null
+      },
+      {
+        "name": "> 14 μm",
+        "uom": "μm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": 14,
+        "indicator": "contamination",
+        "classification": [
+          "particle_count"
+        ],
+        "description": null
+      },
+      {
+        "name": "> 21 μm",
+        "uom": "μm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": 21,
+        "indicator": "contamination",
+        "classification": [
+          "particle_count"
+        ],
+        "description": null
+      },
+      {
+        "name": "> 38 μm",
+        "uom": "μm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": 38,
+        "indicator": "contamination",
+        "classification": [
+          "particle_count"
+        ],
+        "description": null
+      },
+      {
+        "name": "> 70 μm",
+        "uom": "μm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": 70,
+        "indicator": "contamination",
+        "classification": [
+          "particle_count"
+        ],
+        "description": null
+      },
+      {
+        "name": "ISO 4406",
+        "uom": null,
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ISO 4406"
+        ],
+        "input_type": "string",
+        "input_env": [],
+        "math_value": null,
+        "indicator": "contamination",
+        "classification": [
+          "particle_count"
+        ],
+        "description": null
+      },
+      {
+        "name": "Water Content",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D4377",
+          "IP 74",
+          "ISO 12937",
+          "ASTM D6304a",
+          "IP 356",
+          "iso 3733"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "contamination",
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "Ash Content",
+        "uom": "% m",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "iso 6245"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "contamination",
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "Soot %",
+        "uom": "%",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "iso 6245"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "contamination",
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "Total Contamination",
+        "uom": "mg/kg",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "EN 12662",
+          "IP 440a"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "contamination",
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "Iron",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Chrome",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Nickel",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Aluminium",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Lead",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Copper",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Tin",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Titanium",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Silver",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Cadmium",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Manganese",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Arsenic",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Indium",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Cobalt",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Zirconium",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Tungsten",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Bismuth",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Antimony",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Cerium",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "wear",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Silicon",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "contamination",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Sodium",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "contamination",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Vanadium",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "contamination",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Potassium",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "contamination",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Lithium",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "contamination",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Glycol %",
+        "uom": "%",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "contamination",
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "Bubbles",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "contamination",
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "Molybdenum",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "chemistry",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Calcium",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "chemistry",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Magnesium",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "chemistry",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Phosphorus",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "chemistry",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Zinc",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "chemistry",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Barium",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "chemistry",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Boron",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ASTM D6595"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": "chemistry",
+        "classification": [
+          "elemental_analysis"
+        ],
+        "description": null
+      },
+      {
+        "name": "Cetane Index",
+        "uom": "Index",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+          "iso_4264"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": "The cetane index is a figure which denotes the quality of a diesel fuel, based upon its density and volatility, and which is roughly approximate to its cetane number."
+      },
+      {
+        "name": "Viscosity @ 20°C",
+        "uom": "mm2/s",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "iso_3104"
+        ],
+        "input_type": "number",
+        "input_env": 2,
+        "math_value": 20,
+        "indicator": "chemistry",
+        "classification": [],
+        "description": "kinematic viscosity tells how fast the fluid is moving when a certain force is applied"
+      },
+      {
+        "name": "Viscosity @ 40°C",
+        "uom": "mm2/s",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "iso_3104"
+        ],
+        "input_type": "number",
+        "input_env": 2,
+        "math_value": 40,
+        "indicator": "chemistry",
+        "classification": [],
+        "description": "kinematic viscosity tells how fast the fluid is moving when a certain force is applied"
+      },
+      {
+        "name": "Viscosity @ 50°C",
+        "uom": "mm2/s",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "astm d2270",
+          "iso_3104"
+        ],
+        "input_type": "number",
+        "input_env": 2,
+        "math_value": 50,
+        "indicator": "chemistry",
+        "classification": [],
+        "description": "kinematic viscosity tells how fast the fluid is moving when a certain force is applied"
+      },
+      {
+        "name": "Viscosity @ 100°C",
+        "uom": "mm2/s",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "iso_3104"
+        ],
+        "input_type": "number",
+        "input_env": 2,
+        "math_value": 100,
+        "indicator": "chemistry",
+        "classification": [],
+        "description": "kinematic viscosity tells how fast the fluid is moving when a certain force is applied"
+      },
+      {
+        "name": "CFPP - Winter",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ip 309",
+          "ip 612"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": "The lowest temperature, expressed in degrees Celsius (°C), at which a given volume of diesel type of fuel still passes through a standardized filtration device in a specified time when cooled under certain conditions"
+      },
+      {
+        "name": "CFPP - Summer",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "ip 309",
+          "ip 612"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": "The lowest temperature, expressed in degrees Celsius (°C), at which a given volume of diesel type of fuel still passes through a standardized filtration device in a specified time when cooled under certain conditions"
+      },
+      {
+        "name": "Polynuclear Aromatic Hydrocarbons (PAH)",
+        "uom": "m%",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "IP 391",
+          "ASTM D2425",
+          "EN 12916a"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": " a class of chemicals that occur naturally in coal, crude oil, and gasoline. They also are produced when coal, oil, gas, wood, garbage, and tobacco are burned."
+      },
+      {
+        "name": "Cetane Improver",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": "a chemical which has the effect of increasing a diesel fuel's Cetane number."
+      },
+      {
+        "name": "Research Octane Number (RON)",
+        "uom": null,
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": "determined by running the fuel in a test engine with a variable compression ratio under controlled conditions, and comparing the results with those for mixtures of iso-octane and n-heptane."
+      },
+      {
+        "name": "Motor Octane Number (MON)",
+        "uom": null,
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": "Tested using a preheated fuel mixture, higher engine speed, and variable ignition timing to further stress the fuel's knock resistance"
+      },
+      {
+        "name": "Anti-Knock Index (AKI)",
+        "uom": null,
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": "The simple mean or average of the RON and the MON"
+      },
+      {
+        "name": "Flash Point",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+          "ISO 2719"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": "the lowest temperature at which vapours of the material will ignite, when given an ignition source"
+      },
+      {
+        "name": "Freezing Point",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": "The temperature at which a liquid freezes"
+      },
+      {
+        "name": "Smoke Point",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": "The temperature at which a liquid smokes"
+      },
+      {
+        "name": "Cloud Point",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+          "iso 3015"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": "The temperature at which a liquid freezes"
+      },
+      {
+        "name": "Pour Point",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+          "iso 3016"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": "The temperature at which a liquid freezes"
+      },
+      {
+        "name": "Biodiesel:FAME",
+        "uom": "% col",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+          "astm d7963",
+          "ip 579"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": "Fatty Acid Methyl Esters (FAME) are esters of fatty acids."
+      },
+      {
+        "name": "Density @ 15 °C",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "astm d4052",
+          "iso 3675",
+          "iso 12185"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": 15,
+        "indicator": null,
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "Density @ 20 °C",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [
+          "astm d4052",
+          "iso 3675",
+          "iso 12185"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": 20,
+        "indicator": null,
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "IBP",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [
+          "distillation"
+        ],
+        "description": null
+      },
+      {
+        "name": "T10",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [
+          "distillation"
+        ],
+        "description": null
+      },
+      {
+        "name": "T20",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [
+          "distillation"
+        ],
+        "description": null
+      },
+      {
+        "name": "T50",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [
+          "distillation"
+        ],
+        "description": null
+      },
+      {
+        "name": "T65",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [
+          "distillation"
+        ],
+        "description": null
+      },
+      {
+        "name": "T85",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [
+          "distillation"
+        ],
+        "description": null
+      },
+      {
+        "name": "T90",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [
+          "distillation"
+        ],
+        "description": null
+      },
+      {
+        "name": "T95",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [
+          "distillation"
+        ],
+        "description": null
+      },
+      {
+        "name": "FBP",
+        "uom": "°C",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [
+          "distillation"
+        ],
+        "description": null
+      },
+      {
+        "name": "Sulphur Vol",
+        "uom": "% vol",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+          "astm d4294",
+          "iso 8754",
+          "iso 14596"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [
+          "distillation"
+        ],
+        "description": null
+      },
+      {
+        "name": "Sulphur",
+        "uom": "ppm",
+        "analysis_class": [
+          "fuel",
+          "oil"
+        ],
+        "test_methods": [],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "Total Sediment TSE",
+        "uom": "mass %",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+          "iso 10307-1"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "Total Sediment TSP",
+        "uom": "mass %",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+          "iso 10307-2"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "Total Sediment TSA",
+        "uom": "mass %",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+          "iso 10307-3"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "Asphaltene Content",
+        "uom": "% vol",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "Oxidation Stability",
+        "uom": "g/m3",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+          "iso 12205"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": null
+      },
+      {
+        "name": "Hydrogen Sulphide",
+        "uom": "mg/kg",
+        "analysis_class": [
+          "fuel"
+        ],
+        "test_methods": [
+          "iso 570"
+        ],
+        "input_type": "number",
+        "input_env": 0,
+        "math_value": null,
+        "indicator": null,
+        "classification": [],
+        "description": null
+      }
+    ]
+  }
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,53 @@
+version: "3.7"
+services:
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./:/var/www
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+#      - ./certbot/conf:/etc/letsencrypt
+#      - ./certbot/www:/var/www/certbot
+#
+#  certbot:
+#    image: certbot/certbot
+#    volumes:
+#      - ./certbot/conf:/etc/letsencrypt
+#      - ./certbot/www:/var/www/certbot
+
+  # redis:
+  #   container_name: redis
+  #   image: redis:latest
+  #   restart: unless-stopped
+  #   ports:
+  #     - 6382:6379
+
+  app:
+    container_name: app
+    image: lab88/lab88:1.0.0
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - $PWD/:/var/www/
+      - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
+      - /var/sftp:/var/sftp
+
+  # supervisor:
+  #   container_name: supervisor
+  #   image: evolveindustries/lab88:5.0.1
+  #   restart: unless-stopped
+  #   command: "supervisord"
+  #   volumes:
+  #     - ./:/var/www/
+  #     - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
+
+networks:
+  default:
+    name: app-network

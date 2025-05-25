@@ -1,0 +1,19 @@
+{
+    "setup": {
+        "model": "AnalysisClass"
+    },
+    "data": [
+        {
+            "name": "fuel",
+            "description": null
+        },
+        {
+            "name": "oil",
+            "description": null
+        },
+        {
+            "name": "coolant",
+            "description": null
+        }
+    ]
+}

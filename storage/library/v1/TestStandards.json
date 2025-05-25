@@ -1,0 +1,179 @@
+{
+    "setup": {
+        "model": "TestStandard"
+    },
+    "data": [
+        {
+            "name": "ASTM D4377",
+            "description": null
+        },
+        {
+            "name": "ASTM D6304a",
+            "description": null
+        },
+        {
+            "name": "ASTM D6595",
+            "description": null
+        },
+        {
+            "name": "ASTM D2270",
+            "description": null
+        },
+        {
+            "name": "ASTM D86",
+            "description": "Standard Test Method for Distillation of Petroleum Products at Atmospheric Pressure"
+        },
+        {
+            "name": "ASTM D323",
+            "description": "Standard Test Method for Vapor Pressure of Petroleum Products (Reid Method)"
+        },
+        {
+            "name": "ASTM D445",
+            "description": "Standard Test Method for Kinematic Viscosity of Transparent and Opaque Liquids (and Calculation of Dynamic Viscosity)"
+        },
+        {
+            "name": "ASTM D613",
+            "description": "Standard Test Method for Cetane Number of Diesel Fuel Oil"
+        },
+        {
+            "name": "ASTM D975",
+            "description": "Standard Specification for Diesel Fuel Oils"
+        },
+        {
+            "name": "ASTM D976",
+            "description": "Standard Test Method for Calculated Cetane Index of Distillate Fuels"
+        },
+        {
+            "name": "ASTM D1319",
+            "description": "Standard Test Method for Hydrocarbon Types in Liquid Petroleum Products by Fluorescent Indicator Adsorption"
+        },
+        {
+            "name": "ASTM D1322",
+            "description": "Standard Test Method for Smoke Point of Kerosine and Aviation Turbine Fuel;"
+        },
+        {
+            "name": "ASTM D1840",
+            "description": "Standard Test Method for Naphthalene Hydrocarbons in Aviation Turbine Fuels by Ultraviolet Spectrophotometry"
+        },
+        {
+            "name": "ASTM D2386",
+            "description": "Standard Test Method for Freezing Point of Aviation Fuels"
+        },
+        {
+            "name": "ASTM D2699",
+            "description": "Standard Test Method for Research Octane Number of Spark-Ignition Engine Fuel"
+        },
+        {
+            "name": "ASTM D2700",
+            "description": "Standard Test Method for Motor Octane Number of Spark-Ignition Engine Fuel"
+        },
+        {
+            "name": "ASTM D3948",
+            "description": "Standard Test Method for Determining Water Separation Characteristics of Aviation Turbine Fuels by Portable Separometer"
+        },
+        {
+            "name": "ASTM D4814",
+            "description": "Standard Specification for Automotive Spark-Ignition Engine Fuel"
+        },
+        {
+            "name": "ASTM D5191",
+            "description": "Standard Test Method for Vapor Pressure of Petroleum Products (Mini Method)"
+        },
+        {
+            "name": "ASTM D5845",
+            "description": "Standard Test Method for Determination of MTBE, ETBE, TAME, DIPE, Methanol, Ethanol and tert-Butanol in Gasoline by Infrared Spectroscopy"
+        },
+        {
+            "name": "ASTM D6277",
+            "description": "Standard Test Method for Determination of Benzene in Spark-Ignition Engine Fuels Using Mid Infrared Spectroscopy"
+        },
+        {
+            "name": "ASTM D6371",
+            "description": "Diesel and domestic heating fuels - Determination of cold filter plugging point"
+        },
+        {
+            "name": "ASTM D6378",
+            "description": "Standard Test Method for Determination of Vapor Pressure (VPx) of Petroleum Products, Hydrocarbons, and Hydrocarbon-Oxygenate Mixtures (Triple Expansion Method)"
+        },
+        {
+            "name": "ASTM D6379",
+            "description": "Standard Test Method for Determination of Aromatic Hydrocarbon Types in Aviation Fuels and Petroleum Distillates—High Performance Liquid Chromatography Method with Refractive Index Detection"
+        },
+        {
+            "name": "ASTM D7153",
+            "description": "Standard Test Method for Hydrocarbon Types in Liquid Petroleum Products by Fluorescent Indicator Adsorption (Automatic Laser Method)"
+        },
+        {
+            "name": "ASTM D7170",
+            "description": "Standard Test Method for Determination of Derived Cetane Number (DCN) of Diesel Fuel Oils—Fixed Range Injection Period, Constant Volume Combustion Chamber Method"
+        },
+        {
+            "name": "ASTM D7344",
+            "description": "Standard Test Method for Distillation of Petroleum Products at Atmospheric Pressure (Mini Method)"
+        },
+        {
+            "name": "ASTM D7777",
+            "description": "Standard Test Method for Density, Relative Density, or API Gravity of Liquid Petroleum by Portable Digital Density Meter"
+        },
+        {
+            "name": "ASTM D7806",
+            "description": "Standard Test Method for Determination of the Fatty Acid Methyl Ester (FAME) Content of a Blend of Biodiesel and Petroleum-Based Diesel Fuel Oil Using Mid-Infrared Spectroscopy"
+        },
+        {
+            "name": "ASTM E1655",
+            "description": "Standard Practices for Infrared Multivariate Quantitative Analysis"
+        },
+        {
+            "name": "ASTM D56",
+            "description": "Standard Test Method for Flash Point by Tag Closed Cup Tester"
+        },
+        {
+            "name": "ASTM D93",
+            "description": "Standard Test Methods for Flash Point by Pensky-Martens Closed Cup Tester"
+        },
+        {
+            "name": "ASTM D6450",
+            "description": "Standard Test Method for Flash Point by Continuously Closed Cup (CCCFP) Tester"
+        },
+        {
+            "name": "ASTM D7094",
+            "description": "Standard Test Method for Flash Point by Modified Continuously Closed Cup (MCCCFP) Tester"
+        },
+        {
+            "name": "EN 12662",
+            "description": null
+        },
+        {
+            "name": "EN 116",
+            "description": null
+        },
+        {
+            "name": "EN 590",
+            "description": null
+        },
+        {
+            "name": "EN 228",
+            "description": null
+        },
+        {
+            "name": "EN 238",
+            "description": null
+        },
+        {
+            "name": "EN 13016-1",
+            "description": "Part 1: Determination of air saturated vapour pressure (ASVP) and calculated dry vapour pressure equivalent (DVPE) PART 2: Liquid petroleum products - Vapour pressure - Part 2: Determination of absolute pressure(AVP) between 40 °C and 100 °C"
+        },
+        {
+            "name": "EN 13016-2",
+            "description": null
+        },
+        {
+            "name": "EN 14078",
+            "description": null
+        },
+        {
+            "name": "EN 16144",
+            "description": null
+        }
+    ]
+}

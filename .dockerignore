@@ -1,0 +1,17 @@
+# Ignore files that are specific to your development environment
+.env
+.vscode
+
+# Ignore version control directories
+.git
+
+# Ignore compiled assets
+public/css
+public/js
+public/mix-manifest.json
+
+# Ignore Node.js dependencies
+node_modules
+
+# Ignore Composer dependencies
+vendor

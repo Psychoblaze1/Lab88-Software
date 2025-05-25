@@ -1,0 +1,19 @@
+//MODELS TO CREATE
+SpecSuite - collection of test specifications (SANS 342 etc) with LimitParameters
+
+laboratory
+instruments -> test standards -> testable range per parameter
+
+manufacturer -> model: polymorphic manu table with related model / (or otherway around)
+
+
+//SOFT DELETE
+on SoftDelete of RelatedModel, update children to new parent_id
+
+
+//SAMPLE
+create form inputs based on parameter category
+
+sample_type : fuel/diesel/coolant
+dates
+location chain
