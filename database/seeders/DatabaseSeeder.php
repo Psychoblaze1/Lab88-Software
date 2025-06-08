@@ -21,13 +21,13 @@ class DatabaseSeeder extends Seeder
         // for dev
         $this->call(AccountSeeder::class);
         $this->call(UserSeeder::class);
-        // $this->call(SiteSeeder::class);
-        // $this->call(AssetSeeder::class);
-        // $this->call(ComponentSeeder::class);
-        // $this->call(SamplePointSeeder::class);
+        $this->call(SiteSeeder::class);
+        $this->call(AssetSeeder::class);
+        $this->call(ComponentSeeder::class);
+        $this->call(SamplePointSeeder::class);
         $this->call(AssetChainSeeder::class);
         $this->call(LimitSuiteSeeder::class);
-        // $this->call(SampleSeeder::class);
-        // $this->call(LabSeeder::class);
+        $this->call(LabSeeder::class);
+        $this->call(SampleSeeder::class);
     }
 }

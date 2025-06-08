@@ -43,7 +43,7 @@ class SampleController extends Controller
             return 'no sample found';
         }
         $sample->account_id = $chainData->account_id;
-        $sample->sample_point_id = $chainData->sample_point->id;
+        $sample->asset_chain_id = $chainData->sample_point->id;
         $sample->name = $sampleData->name;
         $sample->type = $sampleData->type;
         $sample->drawn_by = $sampleData->drawn_by;

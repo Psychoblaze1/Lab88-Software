@@ -18,11 +18,11 @@ class SampleFactory extends Factory
     {
 
         $account = \App\Models\Account::inRandomOrder()->first();
-        $samplePoint = \App\Models\SamplePoint::inRandomOrder()->first();
+        $assetChain = \App\Models\AssetChain::inRandomOrder()->first();
 
         return [
             'account_id' => $account->id,
-            'sample_point_id' => $samplePoint->id,
+            'asset_chain_id' => $assetChain ? $assetChain->id : null,
             'name' => 'SAMPLE: ' . $this->faker->numerify(' ###'),
             'status' => 1,
             'type' => 'diesel',

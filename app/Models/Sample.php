@@ -23,7 +23,7 @@ class Sample extends Model
     //     'status',
     //     'account_id',
     //     'lab_id',
-    //     'sample_point_id',
+    //     'asset_chain_id',
     //     'limit_suite_id'
     // ];
 
@@ -68,7 +68,7 @@ class Sample extends Model
 
     public function assetChain()
     {
-        return $this->belongsTo(assetChain::class, 'asset_chain_id');
+        return $this->belongsTo(AssetChain::class, 'asset_chain_id');
     }
 
     public function statusLogs()

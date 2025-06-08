@@ -65,7 +65,7 @@ class SampleActions
             return [
                 'id' => $sample->id,
                 'account_id' => $sample->account_id,
-                'sample_point_id' => $sample->sample_point_id,
+                'asset_chain_id' => $sample->asset_chain_id,
                 'name' => $sample->name,
                 'status' => $sample->status,
                 'type' => $sample->type,
