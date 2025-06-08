@@ -28,9 +28,23 @@ services:
   #   ports:
   #     - 6382:6379
 
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: lab88_db
+      MYSQL_USER: lab88_admin
+      MYSQL_PASSWORD: 3v0lv3ADM!N
+      MYSQL_ROOT_PASSWORD: rootpassword
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
   app:
     container_name: app
-    image: lab88/lab88:1.0.0
+    build: .
     restart: unless-stopped
     env_file:
       - .env
@@ -38,6 +52,8 @@ services:
       - $PWD/:/var/www/
       - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
       - /var/sftp:/var/sftp
+    depends_on:
+      - mysql
 
   # supervisor:
   #   container_name: supervisor
@@ -47,6 +63,9 @@ services:
   #   volumes:
   #     - ./:/var/www/
   #     - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
+
+volumes:
+  mysql_data:
 
 networks:
   default:
